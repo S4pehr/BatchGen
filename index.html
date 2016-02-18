@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+<title>Fake Mail Sender .: Coded By S4pehr :.</title>
+<link href="style/contact.css" rel="stylesheet" type="text/css" /> <!-- farakhani file contact -->
+<!--
+	Ashiyane.org
+-->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.jigowatt.js"></script>
+</head>
+
+<body>
+
+	<div id="contact">
+        
+            <h1><acronym title="Form Intended">S4pehr</acronym> Fake Mail Sender</h1>
+            <p class="loader">Fill Up This Field, So Your Fake Mail Will Send To Target By Me :)</p>
+            
+      <div id="message"></div>
+                                
+            <form method="post" action="contact.php" name="contactform" id="contactform">
+            
+            <fieldset>
+                    
+            <legend>Coded By S4pehr .: Just For Fun :D :.</legend>
+        
+            <label for=name accesskey=U><span class="required">*</span> Your Name :</label>
+            <input name="name" type="text" id="name" size="30" value="" /> 
+        
+            <br />
+            <label for=email accesskey=E><span class="required">*</span> Email :</label>
+            <input name="email" type="text" id="email" size="30" value="" />
+        
+            <br />
+            <label for=phone accesskey=P><span class="required">*</span> Phone Number :</label>
+            <input name="phone" type="text" id="phone" size="30" value="" />
+        
+            <br />
+            <label for=subject accesskey=S>Subject :</label>
+            <select name="subject" type="text" id="subject">
+              <option value="Support">Support Area</option>
+              <option value="a Sale">Sale Area</option>
+              <option value="a Bug fix">Report a Bug</option>
+            </select>
+        
+            <br />
+            <label for=comments accesskey=C><span class="required">*</span> Explain More :</label>
+            <textarea name="comments" cols="40" rows="3"  id="comments" style="width: 350px;"></textarea>
+                            
+            <p><span class="required">*</span> Are You Human?</p>
+                    
+            <label for=verify accesskey=V>&nbsp;&nbsp;&nbsp;<img src="image.php" border="0"></label>
+            <input name="verify" type="text" id="verify" size="6" value="" style="width: 50px;" /><br /><br />
+            <input type="submit" class="submit" id="submit" value=" Send It! " />
+            
+            </fieldset>
+        
+            </form>
+                    
+	</div>
+
+</body>
+</html>
