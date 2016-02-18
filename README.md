@@ -1,2 +1,3 @@
 # Fake Mail Sender
-Developed By S4pehr
+
+Use this script to send fake mail ... Just Run Index.htm and fill up the forms ...
